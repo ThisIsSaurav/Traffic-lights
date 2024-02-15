@@ -1,0 +1,94 @@
+body{
+    background-color: aliceblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    /* border: 1px solid red; */
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+}
+
+.main{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+.trafficlights{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 5px;
+}
+
+.light{
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    border-radius: 50%;
+    background-color: #ababab;
+}
+.count{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+
+.start button{
+   width: 100px;
+   height: 30px;
+   border: none;
+   border-radius: 20px;
+   background-color: #181818;
+   color: white;
+   cursor: pointer;
+}
+
+
+.red-on{
+    background-color: #ff3c3c;
+}
+.yellow-on{
+    background-color: #ffff24;
+}
+.green-on{
+    background-color: #23ff23;
+}
+
+
+.btn-bg-red{
+    background-color: red;
+    color: white;
+}
+.btn-bg-green{
+    background-color: green;
+    color: white;
+}
+
+
